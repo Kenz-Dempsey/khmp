@@ -36,7 +36,7 @@ const Work = () => {
           <Meta>Technologies:</Meta>
           <span>Bootstrap & JavaScript</span>
         </List>
-        <WorkImage src="/images/thumbdecks.png" />
+        <WorkImage src="/images/thumbDecks.png" />
         <WorkImage src="/images/worksimg/decks-02.png" />
         <WorkImage src="/images/worksimg/decks-03.png" />
       </Container>

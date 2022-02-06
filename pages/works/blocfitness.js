@@ -39,7 +39,7 @@ const Work = () => {
           <Meta>Technologies:</Meta>
           <span>Bootstrap, Vanilla JavaScript & Wow.js</span>
         </List>
-        <WorkImage src="/images/thumbblocfitness.png" />
+        <WorkImage src="/images/thumbBlocfitness.png" />
         <WorkImage src="/images/worksimg/bloc-01.png" />
         <WorkImage src="/images/worksimg/bloc-02.png" />
         <WorkImage src="/images/worksimg/bloc-03.png" />
