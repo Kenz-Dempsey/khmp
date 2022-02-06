@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kenz-dempsey.github.io/kenzhomepage",
+  "homepage": "https://kenz-dempsey.github.io/khmp",
   "name": "kenz-dempsey-homepage",
   "version": "1.0.0",
   "description": "kenz portfolio",
@@ -23,7 +23,7 @@
     "babel": "^6.23.0",
     "cors": "^2.8.5",
     "framer-motion": "^5.3.0",
-    "next": "^12.0.4",
+    "next": "^12.0.10",
     "node": "^17.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
