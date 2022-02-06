@@ -22,7 +22,7 @@ const LogoBox = styled.span`
 `
 // ${useColorModeValue('', '-dark')}
 const Logo = () => {
-  const beeImg = `/images/beelogo${useColorModeValue('', '-dark')}.png`
+  const beeImg = `/images/beelogo${useColorModeValue('', '-dark-min')}.png`
   return (
     <Link href="/">
       <a>
