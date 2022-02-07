@@ -48,7 +48,7 @@ const Page = () => {
                 {'<'}Kenz Dempsey {'/>'}
               </div>
             </Heading>
-            <p>Digital Architect ( Developer / Designer / Creator )</p>
+            <p>Digital Architect (Developer / Designer / Creator)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -111,6 +111,10 @@ const Page = () => {
             tought himself to code.
           </BioSection>
           <BioSection>
+            <BioYear>2019</BioYear>
+            Worked for a private e-Commerce company as a front-end developer.
+          </BioSection>
+          <BioSection>
             <BioYear>2020 - present</BioYear>
             Works as a freelance Web Dev.
           </BioSection>
@@ -161,6 +165,7 @@ const Page = () => {
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoLinkedin} />}
+                  target="_blank"
                 >
                   Kenz Dempsey
                 </Button>
