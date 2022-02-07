@@ -24,6 +24,11 @@ import {
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoDiscord,
+  IoLogoReact,
+  IoLogoJavascript,
+  IoLogoHtml5,
+  IoLogoCss3,
+  IoLogoWordpress,
   IoLogoLinkedin
 } from 'react-icons/io5'
 
@@ -74,10 +79,10 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Kenz is a freelance web developer based in Vancouver, Canada with a
-            passion for technology and content creation. He loves helping people
+            I am a freelance web developer based in Vancouver, Canada with a
+            passion for technology and content creation. I love helping people
             start their own businesses and achieve their goals. When not on the
-            computer, he loves reading, cooking and mountain biking.
+            computer, I love reading, cooking and mountain biking.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -107,16 +112,17 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Bought all the books he could find on JavaScript/HTML & CSS and
-            tought himself to code.
+            Bought all the books I could find on JavaScript/HTML & CSS and
+            tought myself to code.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Worked for a private e-Commerce company as a front-end developer.
+            Started first job for a private e-Commerce company as a front-end
+            developer.
           </BioSection>
           <BioSection>
             <BioYear>2020 - present</BioYear>
-            Works as a freelance Web Dev.
+            Working as a freelance Web Dev.
           </BioSection>
         </Section>
         <Section delay={0.4}>
@@ -129,6 +135,31 @@ const Page = () => {
           </Paragraph>
         </Section>
 
+        <Section delay={0.4}>
+          <Heading as="h3" variant="section-title">
+            Skills
+          </Heading>
+          <Paragraph>
+            <Icon as={IoLogoHtml5} />
+            <BioYear> ‎ ‎ HTML5</BioYear>
+          </Paragraph>
+          <Paragraph>
+            <Icon as={IoLogoCss3} />
+            <BioYear> ‎ ‎ CSS3</BioYear>
+          </Paragraph>
+          <Paragraph>
+            <Icon as={IoLogoJavascript} />
+            <BioYear> ‎ ‎ JavaScript</BioYear>
+          </Paragraph>
+          <Paragraph>
+            <Icon as={IoLogoReact} />
+            <BioYear> ‎ ‎ React.js</BioYear>
+          </Paragraph>
+          <Paragraph>
+            <Icon as={IoLogoWordpress} />
+            <BioYear> ‎ ‎ WordPress</BioYear>
+          </Paragraph>
+        </Section>
         <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             On the web
