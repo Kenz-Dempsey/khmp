@@ -48,6 +48,10 @@ const Page = () => {
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
+            <meta
+              name="description"
+              content="I'm a front-end developer based in Canada. I build websites and web apps."
+            />
             <Heading as="h2" variant="page-title">
               <div>
                 {'<'}Kenz Dempsey {'/>'}
@@ -69,12 +73,16 @@ const Page = () => {
               display="inline-block"
               borderRadius="full"
               src="/images/kenz.jpg"
-              alt="profile image"
+              alt="kenz dempsey web developer profile image"
             />
           </Box>
         </Box>
 
         <Section delay={0.1}>
+          <meta
+            name="work"
+            content="professional wordpress web developer vancouver"
+          />
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
@@ -86,7 +94,11 @@ const Page = () => {
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button
+                rightIcon={<ChevronRightIcon />}
+                colorScheme="teal"
+                aria-label="My Web Development Portfolio"
+              >
                 My portfolio
               </Button>
             </NextLink>
@@ -141,23 +153,23 @@ const Page = () => {
           </Heading>
           <Paragraph>
             <Icon as={IoLogoHtml5} />
-            <BioYear> ‎ ‎ HTML5</BioYear>
+            <BioYear> ‎ ‎HTML5</BioYear>
           </Paragraph>
           <Paragraph>
             <Icon as={IoLogoCss3} />
-            <BioYear> ‎ ‎ CSS3</BioYear>
+            <BioYear> ‎ ‎CSS3</BioYear>
           </Paragraph>
           <Paragraph>
             <Icon as={IoLogoJavascript} />
-            <BioYear> ‎ ‎ JavaScript</BioYear>
+            <BioYear> ‎ ‎JavaScript</BioYear>
           </Paragraph>
           <Paragraph>
             <Icon as={IoLogoReact} />
-            <BioYear> ‎ ‎ React.js</BioYear>
+            <BioYear> ‎ ‎React.js</BioYear>
           </Paragraph>
           <Paragraph>
             <Icon as={IoLogoWordpress} />
-            <BioYear> ‎ ‎ WordPress</BioYear>
+            <BioYear> ‎ ‎WordPress</BioYear>
           </Paragraph>
         </Section>
         <Section delay={0.5}>

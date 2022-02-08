@@ -74,7 +74,7 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          <ThemeToggleButton />
+          <ThemeToggleButton aria-label="Toggle Lightmode or Darkmode" />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton

@@ -27,7 +27,12 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={beeImg} width={22} height={22} alt="logo" />
+          <Image
+            src={beeImg}
+            width={22}
+            height={22}
+            alt="kenz dempsey professional wordpress web developer logo | Vancouver based web dev"
+          />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
