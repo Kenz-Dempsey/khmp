@@ -29,6 +29,7 @@ import {
   IoLogoHtml5,
   IoLogoCss3,
   IoLogoWordpress,
+  IoMail,
   IoLogoLinkedin
 } from 'react-icons/io5'
 
@@ -178,13 +179,13 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/Kenz-Dempsey" target="_blank">
+              <Link href="mailto:kenz@kenz.dev">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoGithub} />}
+                  leftIcon={<Icon as={IoMail} />}
                 >
-                  @Kenz-Dempsey
+                  kenz@kenz.dev
                 </Button>
               </Link>
             </ListItem>
@@ -199,6 +200,17 @@ const Page = () => {
                   leftIcon={<Icon as={IoLogoInstagram} />}
                 >
                   @Kenzngton
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://github.com/Kenz-Dempsey" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @Kenz-Dempsey
                 </Button>
               </Link>
             </ListItem>
