@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 import thumbDecks from '../public/images/thumbDecks.png'
 import thumbBlocfitness from '../public/images/thumbBlocfitness.png'
 import thumbParallax from '../public/images/thumbParallax.png'
+import thumbGotham from '../public/images/thumbGotham.png'
 
 const Works = () => {
   return (
@@ -17,14 +18,21 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="decks"
-              title="CL Decks & Fences"
-              thumbnail={thumbDecks}
+              id="gotham"
+              title="Gotham Graffiti"
+              thumbnail={thumbGotham}
             >
-              A landing page for a local contractor company made with Bootstrap
-              and Vanilla JS.
+              A WordPress/PHP site for a local pressure washing company.
             </WorkGridItem>
           </Section>
+          <WorkGridItem
+            id="decks"
+            title="CL Decks & Fences"
+            thumbnail={thumbDecks}
+          >
+            A landing page for a local contractor company made with Bootstrap
+            and Vanilla JS.
+          </WorkGridItem>
           <Section>
             <WorkGridItem
               id="blocfitness"
