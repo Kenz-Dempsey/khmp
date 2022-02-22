@@ -226,7 +226,7 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
-            <ListItem>
+            {/* <ListItem>
               <Link href="/">
                 <Button
                   variant="ghost"
@@ -236,7 +236,7 @@ const Page = () => {
                   Aflame#0001
                 </Button>
               </Link>
-            </ListItem>
+            </ListItem> */}
           </List>
         </Section>
       </Container>
