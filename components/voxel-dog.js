@@ -82,6 +82,7 @@ const VoxelDog = () => {
         setLoading(false)
       })
 
+
       let req = null
       let frame = 0
       const animate = () => {
