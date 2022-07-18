@@ -6,6 +6,7 @@ import thumbDecks from '../public/images/thumbDecks.png'
 import thumbBlocfitness from '../public/images/thumbBlocfitness.png'
 import thumbParallax from '../public/images/thumbParallax.png'
 import thumbGotham from '../public/images/thumbGotham.png'
+import thumbLinkinbio from '../public/images/thumbLinkinbio.png'
 
 const Works = () => {
   return (
@@ -50,6 +51,17 @@ const Works = () => {
               thumbnail={thumbParallax}
             >
               A parallax scrolling webpage made with pure HTML/CSS
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="linkinbio"
+              title="Link In Bio"
+              thumbnail={thumbLinkinbio}
+            >
+              A link in bio page for Instagram or other social media platforms
+              to showcase multiple links. Inspiration taken from LinkTree and
+              DevAsLife.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
