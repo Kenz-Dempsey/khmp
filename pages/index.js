@@ -91,7 +91,7 @@ const Page = () => {
             I am a freelance web developer based in Vancouver, Canada with a
             passion for technology and content creation. I love helping people
             start their own businesses and achieve their goals. When not on the
-            computer, I love reading, cooking and mountain biking.
+            computer, I love working on cars, reading and mountain biking.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
