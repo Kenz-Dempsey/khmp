@@ -73,7 +73,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/kenz.jpg"
+              src="/images/kenz2.jpeg"
               alt="kenz dempsey web developer profile image"
             />
           </Box>
